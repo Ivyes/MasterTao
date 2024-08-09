@@ -933,7 +933,7 @@ header .logo img {
 }
 .accordion .accordion-button:not(.collapsed)::after {
   transform: rotate(-90deg);
-  background-image: url(../assets/img/icon-arrow-left-btn.svg);
+  background-image: url(assets/img/icon-arrow-left-btn.svg);
 }
 .accordion .accordion-body {
   padding: 0px 80px 19px 34px;
