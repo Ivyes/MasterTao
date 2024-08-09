@@ -40,6 +40,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-style: normal;
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: "Proxima Nova";
@@ -920,7 +924,7 @@ header .logo img {
   color: #fff;
 }
 .accordion .accordion-button::after {
-  background-image: url(../assets/img/icon-arrow-left-btn-white.svg);
+  background-image: url(assets/img/icon-arrow-left-btn-white.svg);
   width: 27px;
   height: 27px;
   background-size: initial;
@@ -933,7 +937,7 @@ header .logo img {
 }
 .accordion .accordion-button:not(.collapsed)::after {
   transform: rotate(-90deg);
-  background-image: url(../assets/img/icon-arrow-left-btn.svg);
+  background-image: url(assets/img/icon-arrow-left-btn.svg);
 }
 .accordion .accordion-body {
   padding: 0px 80px 19px 34px;
