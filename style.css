@@ -1275,6 +1275,9 @@ header .logo img {
   .template-title {
     margin-bottom: 40px;
   }
+  .calculation-form .template-title {
+    margin-bottom: 79px;
+  }
   .calculation-form .form {
     padding: 52px 30px 34px;
   }
@@ -1288,6 +1291,15 @@ header .logo img {
     justify-content: space-between;
     align-items: center;
   }
+  .advantages .template-title {
+    margin-bottom: 69px;
+  }
+  .delivery .template-title {
+    margin-bottom: 56px;
+  }
+  .services .template-title {
+    margin-bottom: 60px;
+  }
   .card {
     max-width: 335px;
   }
@@ -1299,6 +1311,9 @@ header .logo img {
     flex-direction: column;
     align-items: center;
     row-gap: 25px;
+  }
+  .about .template-title {
+    margin-bottom: 49px;
   }
   .about .column {
     max-width: initial;
@@ -1313,8 +1328,20 @@ header .logo img {
     max-width: 277px;
     margin: 0 auto;
   }
+  .question .template-title {
+    margin-bottom: 52px;
+  }
+  .cooperation .template-title {
+    margin-bottom: 71px;
+  }
+  .cooperation-text {
+    text-align: justify;
+  }
 }
 @media screen and (max-width: 575px) {
+  .advantages .swiper-pagination {
+    margin-top: 25px;
+  }
   .accordion .accordion-button {
     padding: 12px 20px;
     font-size: 16px;
@@ -1326,6 +1353,7 @@ header .logo img {
   .question .row {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
+    gap: 28px;
   }
   .question-form {
     padding: 40px 20px;
@@ -1333,6 +1361,10 @@ header .logo img {
   .question-form-title,
   .question-form-discription {
     text-align: center;
+  }
+  .cooperation .template-title h3,
+  .cooperation .template-title .h3 {
+    font-size: 16px;
   }
   .cooperation-text {
     padding-right: 0;
