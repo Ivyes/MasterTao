@@ -1275,6 +1275,12 @@ header .logo img {
   .template-title {
     margin-bottom: 40px;
   }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 15vh;
+  }
   .calculation-form .template-title {
     margin-bottom: 79px;
   }
