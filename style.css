@@ -1128,6 +1128,9 @@ header .logo img {
   header .logo {
     max-width: 126px;
   }
+  header .logo img{
+    width: 100%;
+  }
   .mobile-container {
     flex-direction: column;
     position: absolute;
